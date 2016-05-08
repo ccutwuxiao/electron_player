@@ -193,6 +193,7 @@
 		
 		$('.cover').html('<img src="'+item.cover+'" alt="'+item.album+'">');
 		$('.tag').html('<strong>'+item.title+'</strong><span class="artist">'+item.artist+'</span><span class="album">'+item.album+'</span>');
+		//$('.tag').html('<strong>'+item.title+'</strong><p class="artist">'+item.artist+'</p><p class="album">'+item.album+'</p>');
 		$('#playlist li').removeClass('playing').eq(i).addClass('playing');
 		audio = newaudio[0];
 		audio.volume = $('.mute').hasClass('enable') ? 0 : volume;

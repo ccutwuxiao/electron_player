@@ -6,7 +6,7 @@ body {
 	-webkit-app-region: drag;
 	-webkit-user-select: none;
 	font: 14px "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-	background: #333;
+	/*background: #333;*/
 	color: #fff;
 	background-image:url(../images/SKIN_PIC_5.png);
 }
@@ -218,7 +218,7 @@ a {
 #player .ctrl {
 	-webkit-app-region: no-drag;
 	margin-left: 155px;
-	text-shadow: 0 1px 2px #000;
+	/*text-shadow: 0 1px 2px #000;*/
 	line-height: 16px;
 }
 #player .ctrl .tag strong {
@@ -232,6 +232,13 @@ a {
 	margin-top: 5px;
 	color: #ccc;
 }
+/*#player .ctrl .tag p {
+	display: block;
+	text-overflow: ellipsis;
+	/*font-size: 12px;
+	margin-top: 5px;
+	color: #ccc;
+}*/
 #player .ctrl .icon {
 	background-repeat: no-repeat;
 	background-position: center;
