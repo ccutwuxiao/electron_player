@@ -33,6 +33,8 @@ a {
 }
 .header {
 	background-image:url(../images/SKIN_PIC_5.png);
+	background-size:500px 340px;
+	background-repeat: no-repeat;
 	direction: rtl;
 	display: -webkit-flex;
 	display: flex;

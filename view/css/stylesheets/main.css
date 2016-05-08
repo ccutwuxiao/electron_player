@@ -9,6 +9,8 @@ body {
 	/*background: #333;*/
 	color: #fff;
 	background-image:url(../images/SKIN_PIC_5.png);
+	background-size:550px 351px;
+	background-repeat: no-repeat;
 }
 a {
 	outline: none;
@@ -232,13 +234,6 @@ a {
 	margin-top: 5px;
 	color: #ccc;
 }
-/*#player .ctrl .tag p {
-	display: block;
-	text-overflow: ellipsis;
-	/*font-size: 12px;
-	margin-top: 5px;
-	color: #ccc;
-}*/
 #player .ctrl .icon {
 	background-repeat: no-repeat;
 	background-position: center;
